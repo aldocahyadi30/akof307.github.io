@@ -1,12 +1,29 @@
-<link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
-<link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Write Title Here</title>
 <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
 <link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+<link rel="stylesheet" href="style.css">
 <style>
-  @media (min-width: 500px) and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     h1 {
-      color: red;
+      color: green;
+    }
+  }
+  @media only screen and (min-width: 601px) {
+    h1 {
+      color: brown;
     }
   }
 </style>
+
+</head>
+<body>
+  <h1>HELLO</h1>
+</body>
+</html>
+
 
