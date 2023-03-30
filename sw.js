@@ -1,6 +1,6 @@
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('first-app')
+    caches.open('static')
       .then(function(cache) {
         cache.addAll([
           '/',
