@@ -36,7 +36,7 @@ self.addEventListener('activate', function(event) {
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
-    caches.open(CACHE_DYNAMIC_NAME)
+    caches.open('static')
       .then(function(cache) {
         return fetch(event.request)
           .then(function(res) {
