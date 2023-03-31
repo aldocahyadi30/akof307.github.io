@@ -12,8 +12,7 @@ self.addEventListener('install', function(event) {
           '/blog.html',
           '/about.html',
           '/style.css',
-          '/contact.html',
-          'images/example-work01.jpg'
+          '/contact.html'
         ]);
       })
   )
